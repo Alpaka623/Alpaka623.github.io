@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Novy – Companion apps and mods for games</title>
+<meta name="description" content="Novy builds companion apps and mods for games: TFT Archipelago, Better Speech Recognition, Blackout Mod, and LectureAlly.">
+<meta property="og:title" content="Novy – Companion apps and mods for games">
+<meta property="og:description" content="TFT Archipelago, Better Speech Recognition, Blackout Mod, LectureAlly and smaller tools.">
+<meta property="og:image" content="https://alpaka623.github.io/img/og-tft.webp">
+<meta property="og:url" content="https://alpaka623.github.io/">
+<link rel="canonical" href="https://alpaka623.github.io/">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<main id="top">
+
+  <!-- Hero: type only, two fields meeting at half height -->
+  <section class="hero" aria-labelledby="hero-title">
+    <header class="hero__bar">
+      <a class="hero__mark" href="#top">Novy</a>
+      <a class="button hero__action" href="#work">See the work</a>
+    </header>
+    <h1 class="hero__title" id="hero-title">
+      <span class="hero__copy hero__copy--top"><span class="lines"><span class="line"><span data-line style="--i:0">Game mods</span></span><span class="line"><span data-line style="--i:1">and tools</span></span></span></span>
+      <span class="hero__copy hero__copy--bottom" aria-hidden="true"><span class="lines"><span class="line"><span data-line style="--i:0">Game mods</span></span><span class="line"><span data-line style="--i:1">and tools</span></span></span></span>
+    </h1>
+    <p class="hero__line">I'm Novy. I build companion apps and mods for the games I play, and a few tools for studying.</p>
+  </section>
+
+  <!-- Work: each project with its own screens at their real proportions -->
+  <section class="work" id="work" aria-label="Work">
+
+    <article class="project project--wide" id="tft-archipelago">
+      <figure class="project__hero shutter-wrap" data-reveal>
+        <div class="shutter"><img src="img/tft-board.webp" width="2000" height="1121" alt="A Teamfight Tactics match with the TFT Archipelago overlay: rule counters top left, locked shop slots 4 and 5 bottom right" loading="lazy"></div>
+      </figure>
+      <div class="project__body">
+        <div class="project__head" data-reveal>
+          <h2 class="project__title">TFT Archipelago</h2>
+          <p class="project__meta">2026 · v0.5.5 · 88 downloads</p>
+        </div>
+        <div class="project__text" data-reveal style="--i:1">
+          <p>A randomizer for Teamfight Tactics that plugs into <a class="link-plain" href="https://archipelago.gg">Archipelago</a> multiworlds. You start with no rerolls, no XP buys and two locked shop slots; items from other players' worlds unlock them. A Windows app reads the screen and the Riot client, covers locked buttons and checks each board at the end of a match. It never touches the game.</p>
+          <p class="project__links"><a class="link-plain" href="https://alpaka623.github.io/tft-archipelago/">Project page</a><a class="link-plain" href="https://github.com/Alpaka623/tft-archipelago">Source</a></p>
+        </div>
+      </div>
+      <div class="project__pair">
+        <figure data-reveal><img src="img/tft-unlocks.webp" width="1014" height="798" alt="Tracker: progressive unlocks, augment choices, shop slots, one-time items and traps" loading="lazy"><figcaption>Unlocks, at the start of a run</figcaption></figure>
+        <figure data-reveal style="--i:1"><img src="img/tft-checks.webp" width="1012" height="799" alt="Tracker: champion checks grouped by cost, each with 2-star and 3-star goals" loading="lazy"><figcaption>Champion checks, 130 of them</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="project project--speech" id="better-speech">
+      <div class="project__body">
+        <div class="project__head" data-reveal>
+          <h2 class="project__title">Better Speech Recognition</h2>
+          <p class="project__meta">2026 · mod for Scam With Your Friends</p>
+        </div>
+        <div class="project__text" data-reveal style="--i:1">
+          <p>The game turns your voice into text with a small Whisper model that mishears a lot, especially outside English. Press F8 in game to pick a bigger or language-specific model, download it, test your microphone and switch without a restart.</p>
+          <p class="project__links"><a class="link-plain" href="https://github.com/Alpaka623/better-speech-recognition-swyf-">Source and download</a></p>
+        </div>
+      </div>
+      <div class="project__row">
+      <figure class="project__banner" data-reveal>
+        <img src="img/bsr-banner.webp" width="1300" height="372" alt="Better Speech Recognition banner: bigger Whisper models, every language, switch in game with F8" loading="lazy">
+      </figure>
+      <div class="speech" data-reveal>
+        <p class="speech__figure"><span class="speech__from"><b>17.9%</b><small>the game's model</small></span><span class="speech__to"><b>3.5%</b><small>German turbo model</small></span></p>
+        <p class="speech__note">Share of words heard wrong in German. The better model is one click away in the F8 menu.</p>
+      </div>
+      </div>
+    </article>
+
+    <article class="project project--dark" id="blackout">
+      <figure class="project__full" data-reveal>
+        <img src="img/blackout.webp" width="1991" height="1036" alt="LOCKDOWN Protocol during a blackout: a dark corridor, red emergency light in the storage room" loading="lazy">
+      </figure>
+      <div class="project__body">
+        <div class="project__head" data-reveal>
+          <h2 class="project__title">Blackout Mod</h2>
+          <p class="project__meta">2025 · 333 downloads on Nexus</p>
+        </div>
+        <div class="project__text" data-reveal style="--i:1">
+          <p>A mod for LOCKDOWN Protocol. The Dissident sabotages a defibrillator, the lights flicker, and the whole facility goes dark for every player in the lobby. The host sets the rules once, everyone else joins with a code. The sync runs over its own small server, not the game's netcode.</p>
+          <p class="project__links">
+            <a class="link-plain" href="https://www.nexusmods.com/lockdownprotocol/mods/67">Nexus Mods</a>
+            <button class="cut" type="button" hidden>Cut the power <kbd>O</kbd></button>
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article class="project project--band" id="blue-prince">
+      <div class="project__body">
+        <div class="project__head" data-reveal>
+          <h2 class="project__title">Blue Prince Wiki</h2>
+          <p class="project__meta">2026 · 59 findings on our board</p>
+        </div>
+        <div class="project__text" data-reveal style="--i:1">
+          <p>A shared notebook for a group playing the puzzle game Blue Prince. Take a photo of a note, a sheet of music or a map in the game, and Gemini reads the text off it and files it with a title, category and tags. Everyone on the board sees it, adds notes and checklists, and finds it again with search. A desktop version keeps everything on your own PC, without AI.</p>
+          <p class="project__links"><a class="link-plain" href="https://github.com/Alpaka623/blue-prince">Web version</a><a class="link-plain" href="https://github.com/Alpaka623/blue-prince-wiki-desktop">Desktop version</a></p>
+        </div>
+      </div>
+      <div class="project__duo">
+        <figure data-reveal style="--i:2">
+          <img src="img/blueprince-overview.webp" width="1152" height="787" alt="The Blue Prince Wiki overview: 59 findings, search, category filters and a card per category with the photos in it" loading="lazy">
+          <figcaption>The board: 59 findings, searchable, sorted into categories</figcaption>
+        </figure>
+        <figure data-reveal style="--i:3">
+          <img src="img/blueprince-exam.webp" width="904" height="699" alt="A finding in the Blue Prince Wiki: a photo of an exam sheet from the game next to the questions and answers read off it, with category, tags and a short description" loading="lazy">
+          <figcaption>One finding: the photo on the left, everything on the right was read and filed by Gemini</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="project project--split" id="lectureally">
+      <figure class="project__shot" data-reveal>
+        <img src="img/lecture.webp" width="1440" height="900" alt="The LectureAlly start page: Your AI professor for lecture slides, with language choice and PDF upload" loading="lazy">
+      </figure>
+      <div class="project__side">
+        <div class="project__head" data-reveal>
+          <h2 class="project__title">LectureAlly</h2>
+          <p class="project__meta">2026 · 30 lecture languages</p>
+        </div>
+        <div class="project__text" data-reveal style="--i:1">
+          <p>Upload lecture slides as a PDF and LectureAlly explains each slide out loud, with captions that follow every word, and answers questions as they come up. It runs on your own API key, has no accounts, and the lecture stays in your browser.</p>
+          <p class="project__links"><a class="link-plain" href="https://lecture-ally.com">lecture-ally.com</a><a class="link-plain" href="https://github.com/Alpaka623/lecture-ally">Source</a></p>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- Smaller things: list on the right, the matching screen held on the left -->
+  <section class="more" id="more" aria-labelledby="more-title">
+    <figure class="more__media" aria-hidden="true">
+      <div class="more__shot is-on" data-for="rpc">
+        <div class="presence" data-ui>
+          <p class="presence__head">Playing a game</p>
+          <div class="presence__body">
+            <div class="presence__art"><span>TFT</span></div>
+            <div>
+              <p class="presence__name">Teamfight Tactics</p>
+              <p>Level 8 · 3rd place</p>
+              <p class="presence__time">31:07 elapsed</p>
+            </div>
+          </div>
+          <span class="presence__btn">MetaTFT profile</span>
+        </div>
+      </div>
+    </figure>
+    <div class="more__body">
+      <h2 class="more__title" id="more-title" data-reveal>Also on GitHub</h2>
+      <ul class="more__list" data-stagger>
+        <li class="more__item is-on" data-item="rpc">
+          <a class="more__row" href="https://github.com/Alpaka623/lol-discord-rpc">
+            <span class="more__name">League &amp; TFT Rich Presence</span><span class="more__kind">Python</span>
+          </a>
+          <p class="more__desc">Shows your League of Legends or TFT game in your Discord status: champion, KDA or level and placement, game time, and buttons to your profile.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- How I build -->
+  <section class="how" id="how" aria-labelledby="how-title">
+    <h2 class="how__title" id="how-title" data-reveal>How I build</h2>
+    <div class="how__grid">
+      <p class="how__lead" data-reveal>I make what I miss while playing: a rule the game lacks, a voice it mishears less, a power cut it never had.</p>
+      <dl class="how__facts" data-stagger>
+        <div><dt>Hands off the game</dt><dd>The TFT apps read the screen and the Riot client's own local API. They never read game memory or send input, so they stay clear of anti-cheat.</dd></div>
+        <div><dt>Open source</dt><dd>Everything listed here has its source on GitHub, so you can read what a mod does before you install it.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <h2 class="contact__title" id="contact-title" data-reveal>Find me</h2>
+    <ul class="contact__rows" data-stagger>
+      <li><a href="https://github.com/Alpaka623"><span class="contact__where">GitHub</span><span class="contact__who">Alpaka623</span></a></li>
+      <li><a href="https://www.nexusmods.com/profile/Novvyy/mods"><span class="contact__where">Nexus Mods</span><span class="contact__who">Novvyy</span></a></li>
+      <li><div><span class="contact__where">Archipelago Discord</span><span class="contact__who">Novy</span></div></li>
+      <li><a href="https://github.com/Alpaka623/tft-archipelago-releases/issues"><span class="contact__where">Bugs and ideas</span><span class="contact__who">Issues</span></a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__top">
+    <div class="foot__invite" data-reveal>
+      <h2 class="foot__line">Play TFT, randomized</h2>
+      <a class="button" href="https://github.com/Alpaka623/tft-archipelago-releases/releases/latest">Download TFT Archipelago</a>
+    </div>
+    <ul class="foot__links" data-stagger>
+      <li><a class="link" href="https://alpaka623.github.io/tft-archipelago/">TFT Archipelago</a></li>
+      <li><a class="link" href="https://github.com/Alpaka623">GitHub</a></li>
+      <li><a class="link" href="https://www.nexusmods.com/profile/Novvyy/mods">Nexus Mods</a></li>
+      <li><a class="link" href="https://lecture-ally.com">LectureAlly</a></li>
+    </ul>
+  </div>
+  <p class="foot__mark" aria-hidden="true">Novy</p>
+  <div class="foot__legal">
+    <span>© 2026 Novy</span>
+    <span>Fan projects. Not affiliated with Riot Games or any other game studio.</span>
+  </div>
+</footer>
+
+<div class="dark" aria-hidden="true"></div>
+<p class="dark__note" role="status" aria-live="polite"></p>
+
+<script src="main.js" defer></script>
+</body>
+</html>
